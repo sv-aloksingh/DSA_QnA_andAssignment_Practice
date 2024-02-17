@@ -14,6 +14,9 @@ public class ArrayListInJava {
 		AddMe(list, 0);
 		AddMe(list, 99);
 		AddMe(list, 10);
+		list.set(0, 101);
+		
+		System.out.println(list.get(0));
 		
 		for(int i =0;i<list.size();i++)
 		{
